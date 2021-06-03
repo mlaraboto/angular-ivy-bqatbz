@@ -1,5 +1,6 @@
 import { Component, VERSION } from '@angular/core';
 import sampleData from './data/db.json';
+import datosNoticia from './data/noticias.json';
 
 @Component({
   selector: 'my-app',
@@ -9,4 +10,5 @@ import sampleData from './data/db.json';
 export class AppComponent  {
   name = 'Angular ' + VERSION.major;
   Users: any = sampleData;
+  Noticias: any = datosNoticia;
 }
