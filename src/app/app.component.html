@@ -1,4 +1,8 @@
 <hello name="{{ name }}"></hello>
 <p>
-  Start editing to see some magic happen :)
+  <ul>
+  <li *ngFor="let users of Users">
+    <h2>{{users.name}}</h2>
+  </li>
+</ul>
 </p>
