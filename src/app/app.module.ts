@@ -5,11 +5,11 @@ import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { NoticiasComponent } from './noticias/noticias.component';
 
-import { ScrollingModule } from '@angular/cdk';
+import { ScrollingModule } from '@angular/cdk/scrolling';
 
 @NgModule({
-  imports: [BrowserModule, FormsModule],
-  declarations: [AppComponent, NoticiasComponent,ScrollingModule],
+  imports: [BrowserModule, FormsModule, ScrollingModule],
+  declarations: [AppComponent, NoticiasComponent,],
   bootstrap: [AppComponent]
 })
 export class AppModule {}

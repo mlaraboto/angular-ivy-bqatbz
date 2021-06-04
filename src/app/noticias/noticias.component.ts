@@ -9,7 +9,9 @@ import datosNoticia from '../data/noticias.json';
 export class NoticiasComponent implements OnInit {
   constructor() {}
 
-  ngOnInit() {}
+  ngOnInit() {
+    console.log('npticias');
+  }
 
   Noticias: any = datosNoticia;
 }
