@@ -6,10 +6,12 @@ import { AppComponent } from './app.component';
 import { NoticiasComponent } from './noticias/noticias.component';
 
 import { ScrollingModule } from '@angular/cdk/scrolling';
+import { HeaderComponent } from './header/header.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   imports: [BrowserModule, FormsModule, ScrollingModule],
-  declarations: [AppComponent, NoticiasComponent,],
+  declarations: [AppComponent, NoticiasComponent, HeaderComponent, FooterComponent,],
   bootstrap: [AppComponent]
 })
 export class AppModule {}
