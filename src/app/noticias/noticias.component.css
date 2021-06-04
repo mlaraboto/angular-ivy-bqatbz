@@ -1,0 +1,8 @@
+:host {
+  display: block;
+  height: 100px;
+  .alineado {
+    float: left;
+    width: 150px;
+  }
+}

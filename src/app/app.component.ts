@@ -1,14 +1,12 @@
 import { Component, VERSION } from '@angular/core';
-import sampleData from './data/db.json';
-import datosNoticia from './data/noticias.json';
+// import sampleData from './data/db.json';
 
 @Component({
   selector: 'my-app',
   templateUrl: './app.component.html',
-  styleUrls: [ './app.component.css' ]
+  styleUrls: ['./app.component.css']
 })
-export class AppComponent  {
+export class AppComponent {
   name = 'Angular ' + VERSION.major;
-  Users: any = sampleData;
-  Noticias: any = datosNoticia;
+  // Users: any = sampleData;
 }
